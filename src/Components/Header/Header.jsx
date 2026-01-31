@@ -11,13 +11,13 @@ const Header = () => {
         <ul className="text-[white] flex gap-[35.83px] text-[16px] font-[Roboto]">
           <li className="flex items-center">
             <AiOutlineThunderbolt />
-            home
+            Home
           </li>
-          <li>cases studies</li>
-          <li>about us</li>
-          <li>careers</li>
-          <li>what we do</li>
-          <li>contact</li>
+          <li>Cases studies</li>
+          <li>About us</li>
+          <li>Careers</li>
+          <li>What we do</li>
+          <li>Contact</li>
           <li className="flex gap-[8px]">
             <img src={img2} alt="UsaFlagImage" className="h-[20px] w-[20px]" />
             EN-US <IoIosArrowDown />
