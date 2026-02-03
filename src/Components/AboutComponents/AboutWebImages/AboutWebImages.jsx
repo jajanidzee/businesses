@@ -21,9 +21,12 @@ const AboutWebImages = () => {
           />
         </div>
       </div>
-      <button className="w-[232.59px] h-[43.02px] bg-[#F85430] text-[#0F0F12] font-light text-[20px] font-[Space Grotesk] text-center rounded-[16px] ml-[40%]  mb-[200px]   ">
-        View all projects
-      </button>
+      <div className="flex justify-center">
+        {" "}
+        <button className="w-[232.59px] h-[43.02px] bg-[#F85430] text-[#0F0F12] font-light text-[20px] font-[Space Grotesk] rounded-[16px] mb-[200px]   ">
+          Vie1w all projects
+        </button>
+      </div>
     </>
   );
 };

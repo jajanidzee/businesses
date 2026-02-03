@@ -34,7 +34,7 @@ const sponsors3 = [
 const HomeBusinesseSponsors = () => {
   return (
     <>
-      <div className="max-w-[831px]  flex m-auto  gap-[127px] mt-[265.42px] mb-[40px] ">
+      <div className="max-w-[831px]  flex m-auto  justify-between mt-[265.42px] mb-[40px] ">
         <ul className="flex flex-col gap-y-[16px]    ">
           {sponsors.map((company, index) => (
             <li key={company} className="">
@@ -59,12 +59,15 @@ const HomeBusinesseSponsors = () => {
           ))}
         </ul>
       </div>
-      <Buttons
-        btnclassname="w-[169.55px] h-[58px] ml-[33%]"
-        btnclassname2="w-[133.34px] h-[58px] pr-[20px]"
-        btn1="What we do"
-        btn2="Testmonials"
-      />
+      <div className="flex justify-center">
+        {" "}
+        <Buttons
+          btnclassname="w-[169.55px] h-[58px] "
+          btnclassname2="w-[133.34px] h-[58px] pr-[20px]"
+          btn1="What we do"
+          btn2="Testmonials"
+        />
+      </div>
     </>
   );
 };

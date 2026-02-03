@@ -41,9 +41,11 @@ const AboutWebDesign = () => {
           </li>
         </ul>
       </div>
-      <p className="text-[#FFFFFF] font-light flex gap-[7.97px] font-[Space Grotesk] text-[20px] ml-[43%] ">
-        To know more <img src={Star} alt="StarImg" />
-      </p>
+      <div className="flex justify-center">
+        <p className="text-[#FFFFFF] font-light flex gap-[7.97px] font-[Space Grotesk] text-[20px]  ">
+          To know more <img src={Star} alt="StarImg" />
+        </p>
+      </div>
     </div>
   );
 };

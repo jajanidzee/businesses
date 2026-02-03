@@ -10,8 +10,11 @@ import MediumImg from "../../assets/Medium.png";
 const Footer = () => {
   return (
     <>
-      <img src={UpHandImg} alt="UpHandImg" className="pl-[780px]" />
-      <div className="pl-[100px]  pb-[129.63px] relative -left-[150px] flex items-start justify-between">
+      <div className="flex justify-end">
+        <img src={UpHandImg} alt="UpHandImg" className="" />
+      </div>
+
+      <div className=" pb-[129.63px] relative -left-[50px] flex items-start justify-between w-[1240px]">
         <div>
           <h1 className="text-[#FFFFFF] text-[40px] font-[Manrope] font-extralight mb-[40px]">
             Your business will <br />
@@ -21,11 +24,10 @@ const Footer = () => {
             LitCollective © 2022
           </p>
         </div>
-        <div>
-          {" "}
+        <div className="flex flex-col items-end">
           <Buttons
             btnclassname="w-[218.36px] h-[58px] "
-            btnclassname2="w-[137.28px] h-[58px] bg-[darkblue]"
+            btnclassname2="w-[137.28px] h-[58px] bg-[#3549CB]"
             btn1="Talk to a specialist"
             btn2="Get in touch"
           />
