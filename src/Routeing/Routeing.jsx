@@ -11,12 +11,15 @@ const Routeing = () => {
         <img src={img} alt="Flashimg" />
       </Link>
       <div>
-        <ul className="text-[white] flex gap-[35.83px] text-[16px] font-[Roboto]">
+        <ul className="text-[pink] flex gap-[35.83px] text-[16px] font-[Roboto]">
           <li className="flex items-center">
             <AiOutlineThunderbolt />
             <Link to="/about"> Home</Link>
           </li>
-          <li>Cases studies</li>
+          <li>
+            {" "}
+            <Link to="/contact">Cases studies</Link>
+          </li>
           <li>About us</li>
           <li>Careers</li>
           <li>What we do</li>
