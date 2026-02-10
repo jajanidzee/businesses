@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactHunter = () => {
   return (
-    <div className="flex items-start justify-between">
+    <div className="flex items-start justify-between pl-[72px] pr-[72px]">
       <p className="text-[#141414] text-[14.4px] font-[inter] font-medium">
         MORE PROJECTS
       </p>

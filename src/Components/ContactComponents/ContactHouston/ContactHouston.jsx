@@ -4,7 +4,7 @@ import CurlyGirl from "../../../assets/CurlyGirl.png";
 import TwoBoy from "../../../assets/TwoBoy.png";
 const ContactHouston = () => {
   return (
-    <div className="pl-[64px] pr-[64px] mt-[534.83px] flex flex-col gap-[205.7px] mb-[306.5px]">
+    <div className="pl-[136.8px] pr-[136.8px] mt-[534.83px] flex flex-col gap-[205.7px] mb-[306.5px]">
       {" "}
       <div className="flex items-center justify-between">
         <div>

@@ -1,14 +1,14 @@
 import React from "react";
-import img from "../assets/flash.png";
-import img2 from "../assets/FlagUsa.png";
+import Vector from "../../assets/Vector.png";
+import { Link } from "react-router-dom";
 import { AiOutlineThunderbolt } from "react-icons/ai";
 import { IoIosArrowDown } from "react-icons/io";
-import { Link } from "react-router-dom";
-const Routeing = () => {
+import img2 from "../../assets/FlagUsa.png";
+const AboutHeader = () => {
   return (
     <div className="flex items-center justify-between">
-      <Link to="/">
-        <img src={img} alt="Flashimg" />
+      <Link to="/" className="inline-block">
+        <img src={Vector} alt="VectorImg" className="" />
       </Link>
       <div>
         <ul className="text-[#FFFFFF] flex gap-[35.83px] text-[16px] font-[Roboto]">
@@ -34,4 +34,4 @@ const Routeing = () => {
   );
 };
 
-export default Routeing;
+export default AboutHeader;
