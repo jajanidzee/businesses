@@ -61,7 +61,7 @@ const ContactStunning = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-end">
+      <div className="flex justify-end pr-[72px]">
         <p className="text-[#141414] text-[48.37px] font-[Inter]  font-medium">
           Ethan Suero is an independent <br /> designer focused on crafting{" "}
           <br />

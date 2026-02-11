@@ -3,8 +3,9 @@ import React from "react";
 import ContactStunning from "../../Components/ContactComponents/ContactStunning/ContactStunning";
 import ContactHouston from "../../Components/ContactComponents/ContactHouston/ContactHouston";
 import ContactHunter from "../../Components/ContactComponents/ContactHunter/ContactHunter";
-import ContactProcess from "../../Components/ContactComponents/ContactProcess/ContactPRocess";
+import ContactProcess from "../../Components/ContactComponents/ContactProcess/ContactProcess";
 import ContactHeader from "../../Components/ContactComponents/ContactHeader/ContactHeader";
+import ContactHumble from "../../Components/ContactComponents/ContactHumble/ContactHumble";
 
 function Contact() {
   return (
@@ -14,6 +15,7 @@ function Contact() {
       <ContactHouston />
       <ContactHunter />
       <ContactProcess />
+      <ContactHumble />
     </div>
   );
 }
