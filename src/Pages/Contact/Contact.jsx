@@ -6,6 +6,7 @@ import ContactHunter from "../../Components/ContactComponents/ContactHunter/Cont
 import ContactProcess from "../../Components/ContactComponents/ContactProcess/ContactProcess";
 import ContactHeader from "../../Components/ContactComponents/ContactHeader/ContactHeader";
 import ContactHumble from "../../Components/ContactComponents/ContactHumble/ContactHumble";
+import ContactPerson from "../../Components/ContactComponents/ContactPerson/ContactPerson";
 
 function Contact() {
   return (
@@ -16,6 +17,7 @@ function Contact() {
       <ContactHunter />
       <ContactProcess />
       <ContactHumble />
+      <ContactPerson />
     </div>
   );
 }
