@@ -7,6 +7,7 @@ import ContactProcess from "../../Components/ContactComponents/ContactProcess/Co
 import ContactHeader from "../../Components/ContactComponents/ContactHeader/ContactHeader";
 import ContactHumble from "../../Components/ContactComponents/ContactHumble/ContactHumble";
 import ContactPerson from "../../Components/ContactComponents/ContactPerson/ContactPerson";
+import ContactCommon from "../../Components/ContactComponents/ContactCommon/ContactCommon";
 
 function Contact() {
   return (
@@ -18,6 +19,7 @@ function Contact() {
       <ContactProcess />
       <ContactHumble />
       <ContactPerson />
+      <ContactCommon />
     </div>
   );
 }

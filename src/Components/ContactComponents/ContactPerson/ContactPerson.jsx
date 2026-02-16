@@ -14,7 +14,7 @@ const ContactPerson = () => {
   return (
     <>
       {" "}
-      <div className=" max-w-[1292px] m-auto border-[3px] border-solid border-[#141414] h-[697.27px] ">
+      <div className=" max-w-[1292px] m-auto border-[3px] border-solid border-[#141414] h-[697.27px] mt-[482px]  ">
         <div className="flex justify-between border-b-3 border-solid border-[#141414] pt-[32.98px] pr-[95.57px] pb-[36.41px] pl-[14.39px]">
           <p className="text-[14.4px] font-medium font-[Inter] text-[#141414]">
             <span className="text-[14.4px] font-bold font-[Inter] text-[#141414]">
