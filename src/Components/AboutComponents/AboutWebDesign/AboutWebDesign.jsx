@@ -1,6 +1,7 @@
 import React from "react";
 import StarOutline from "../../../assets/StarOutline.png";
 import Star from "../../../assets/Star.png";
+import { motion } from "motion/react";
 const AboutWebDesign = () => {
   return (
     <div className=" bg-[#0F0F12] relative -left-[150px] w-[1440px] pl-[30px] mt-[49px] flex-col items-center justify-center mb-[200px] ">
@@ -41,10 +42,15 @@ const AboutWebDesign = () => {
           </li>
         </ul>
       </div>
-      <div className="flex justify-center">
-        <p className="text-[#FFFFFF] font-light flex gap-[7.97px] font-[Space Grotesk] text-[20px]  ">
+      <div className="flex items-center justify-center">
+        <motion.p
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.95 }}
+          onHoverStart={() => console.log("hover started!")}
+          className="text-[#FFFFFF] font-light flex gap-[7.97px] font-[Space Grotesk] text-[20px] cursor-pointer  "
+        >
           To know more <img src={Star} alt="StarImg" />
-        </p>
+        </motion.p>
       </div>
     </div>
   );

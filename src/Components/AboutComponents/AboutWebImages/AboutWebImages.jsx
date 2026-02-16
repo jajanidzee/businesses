@@ -3,6 +3,7 @@ import LazuliImg from "../../../assets/Lazuli.png";
 import OpentriImg from "../../../assets/Opentri.png";
 import WebIslandImg from "../../../assets/WebIsland.png";
 import LaunchrImg from "../../../assets/Launchr.png";
+import { motion } from "motion/react";
 const AboutWebImages = () => {
   return (
     <>
@@ -23,9 +24,14 @@ const AboutWebImages = () => {
       </div>
       <div className="flex justify-center">
         {" "}
-        <button className="w-[232.59px] h-[43.02px] bg-[#F85430] text-[#0F0F12] font-light text-[20px] font-[Space Grotesk] rounded-[16px] mb-[200px]   ">
+        <motion.button
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.95 }}
+          onHoverStart={() => console.log("hover started!")}
+          className="w-[232.59px] h-[43.02px] bg-[#F85430] text-[#0F0F12] font-light text-[20px] font-[Space Grotesk] rounded-[16px] mb-[200px] cursor-pointer  "
+        >
           Vie1w all projects
-        </button>
+        </motion.button>
       </div>
     </>
   );

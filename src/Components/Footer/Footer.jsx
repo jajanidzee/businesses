@@ -7,6 +7,7 @@ import DribbleImg from "../../assets/Dribble.png";
 import TwitterImg from "../../assets/Twitter.png";
 import InstagramImg from "../../assets/Instagram.png";
 import MediumImg from "../../assets/Medium.png";
+import { motion } from "motion/react";
 const Footer = () => {
   return (
     <>
@@ -32,12 +33,47 @@ const Footer = () => {
             btn2="Get in touch"
           />
           <div className="flex gap-[10px] mt-[95px] relative">
-            <img src={BeImg} alt="BeImg" />
-            <img src={DribbleImg} alt="DribbleImg" />
-            <img src={TwitterImg} alt="" />
-            <img src={InstagramImg} alt="InstagramImg" />
-            <img src={MediumImg} alt="MediumImg" />
-            <img src={LowHandImg} alt="LowHandImg" className="absolute " />
+            <motion.img
+              className="cursor-pointer"
+              src={BeImg}
+              alt="BeImg"
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
+              onHoverStart={() => console.log("hover started!")}
+            />
+            <motion.img
+              className="cursor-pointer"
+              src={DribbleImg}
+              alt="DribbleImg"
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
+              onHoverStart={() => console.log("hover started!")}
+            />
+            <motion.img
+              src={TwitterImg}
+              alt="TwitterImg"
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
+              onHoverStart={() => console.log("hover started!")}
+              className="cursor-pointer"
+            />
+            <motion.img
+              src={InstagramImg}
+              alt="InstagramImg"
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
+              onHoverStart={() => console.log("hover started!")}
+              className="cursor-pointer"
+            />
+            <motion.img
+              src={MediumImg}
+              alt="MediumImg"
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
+              onHoverStart={() => console.log("hover started!")}
+              className="cursor-pointer"
+            />
+            <img src={LowHandImg} alt="LowHandImg" className="absolute  " />
           </div>
         </div>
       </div>

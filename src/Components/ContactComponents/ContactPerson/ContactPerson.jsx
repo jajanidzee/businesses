@@ -3,12 +3,12 @@ import HurrellImg from "../../../assets/Hurrell.png";
 import CommaImg from "../../../assets/Comma.png";
 import LeftArrowImg from "../../../assets/LeftArrow.png";
 import RightArrowImg from "../../../assets/RightArrow.png";
-
 import Yahoo2 from "../../../assets/Yahoo2.png";
 import Nami from "../../../assets/Nami.png";
 import Hunter from "../../../assets/Hunter.png";
 import Nuu from "../../../assets/Nuu.png";
 import Houston from "../../../assets/Houston.png";
+import { motion } from "motion/react";
 
 const ContactPerson = () => {
   return (
@@ -71,11 +71,46 @@ const ContactPerson = () => {
             WORKED WITH SOME OF THE BEST OUT THERE
           </p>
           <div className="flex items-center gap-[103.6px]">
-            <img src={Hunter} alt="HunterImg" />
-            <img src={Nuu} alt="NuuImg" />
-            <img src={Yahoo2} alt="Yahoo2Img" />
-            <img src={Houston} alt="HoustonImg" />
-            <img src={Nami} alt="NamiImg" />
+            <motion.img
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
+              onHoverStart={() => console.log("hover started!")}
+              src={Hunter}
+              alt="HunterImg"
+              className="cursor-pointer"
+            />
+            <motion.img
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
+              onHoverStart={() => console.log("hover started!")}
+              src={Nuu}
+              alt="NuuImg"
+              className="cursor-pointer"
+            />
+            <motion.img
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
+              onHoverStart={() => console.log("hover started!")}
+              src={Yahoo2}
+              alt="Yahoo2Img"
+              className="cursor-pointer"
+            />
+            <motion.img
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
+              onHoverStart={() => console.log("hover started!")}
+              src={Houston}
+              alt="HoustonImg"
+              className="cursor-pointer"
+            />
+            <motion.img
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
+              onHoverStart={() => console.log("hover started!")}
+              src={Nami}
+              alt="NamiImg"
+              className="cursor-pointer"
+            />
           </div>
         </div>
       </div>

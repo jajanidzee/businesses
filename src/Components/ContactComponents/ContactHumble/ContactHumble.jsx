@@ -3,6 +3,7 @@ import Uximg from "../../../assets/Ux.png";
 import Uiimg from "../../../assets/Ui.png";
 import Honorsimg from "../../../assets/Honors.png";
 import Inovationimg from "../../../assets/inovation.png";
+import { motion } from "motion/react";
 const ContactHumble = () => {
   return (
     <>
@@ -24,14 +25,61 @@ const ContactHumble = () => {
         </div>
       </div>
       <div className="flex pl-[28.8px]  gap-[28.8px]">
-        <img src={Uximg} alt="Uximg" className="mt-[41.14px]" />
-        <img src={Uiimg} alt="Uiimg" />
-        <img src={Honorsimg} alt="Honorsimg" className="mt-[41.14px]" />
-        <img src={Inovationimg} alt="Inovationimg" />
-        <img src={Uximg} alt="Uximg" className="mt-[41.14px]" />
-        <img src={Uiimg} alt="Uiimg" />
+        <motion.img
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.95 }}
+          onHoverStart={() => console.log("hover started!")}
+          src={Uximg}
+          alt="Uximg"
+          className="mt-[41.14px] cursor-pointer"
+        />
+        <motion.img
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.95 }}
+          onHoverStart={() => console.log("hover started!")}
+          src={Uiimg}
+          alt="Uiimg"
+          className="cursor-pointer"
+        />
+        <motion.img
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.95 }}
+          onHoverStart={() => console.log("hover started!")}
+          src={Honorsimg}
+          alt="Honorsimg"
+          className="mt-[41.14px] cursor-pointer"
+        />
+        <motion.img
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.95 }}
+          onHoverStart={() => console.log("hover started!")}
+          src={Inovationimg}
+          alt="Inovationimg"
+          className="cursor-pointer"
+        />
+        <motion.img
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.95 }}
+          onHoverStart={() => console.log("hover started!")}
+          src={Uximg}
+          alt="Uximg"
+          className="mt-[41.14px] cursor-pointer"
+        />
+        <motion.img
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.95 }}
+          onHoverStart={() => console.log("hover started!")}
+          src={Uiimg}
+          alt="Uiimg"
+          className="cursor-pointer"
+        />
 
-        <div className="bg-[url(public/Honors.png)] w-[180px] mt-[41.14px]"></div>
+        <motion.div
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.95 }}
+          onHoverStart={() => console.log("hover started!")}
+          className="bg-[url(public/Honors.png)] w-[180px] mt-[41.14px] cursor-pointer"
+        ></motion.div>
       </div>
       <div className="max-w-[907.19px] flex flex-col ml-[34%] mt-[296.09px]   ">
         <hr className="w-[100%] text-[#BA9787] mb-[23.67px]    " />
